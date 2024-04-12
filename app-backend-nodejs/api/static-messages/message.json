@@ -1,0 +1,19 @@
+{
+  "addDriver": "You Are Registered As Driver on ROOT by Transporter: ",
+  "transporterLink": "Download Link: https://play.google.com/store/apps/details?id=in.root.root_app",
+  "partnerLink": "Download Link: https://play.google.com/store/apps/details?id=in.root.root_partner",
+  "agentLink": "Download Link: https://play.google.com/store/apps/details?id=com.root.root_agent",
+  "addRepresentative": "You are Registered with root as root Representative. Download Agent App: ",
+  "inviteToPartner": "You Have Been Invited to root Partner by root Representative.",
+  "inviteToAgent": "You Have Been Invited to root Agent by root Representative.",
+  "inviteToTransporter": "You Have Been Invited to root by root Representative.",
+  "addServiceProvider": "You are added as Service Provider from root Representative.",
+  "truckLocation": "Location of the truck:",
+  "driverNumber": "Driver Number:",
+  "truckNumber": "Truck Number:",
+  "rootAgentLink": "Download App to check: https://play.google.com/store/apps/details?id=com.root.root_agent&hl=en",
+  "rootApp": "Download the app: https://play.google.com/store/apps/details?id=in.root.root_app&hl=en",
+  "rootDriver": "https://play.google.com/store/apps/details?id=in.root.root_driver&hl=en",
+  "register-incident": "An Incident Registered By ",
+  "sendIncidentTORepresentative": "Incident happened, please check and accept,if you are not busy."
+}

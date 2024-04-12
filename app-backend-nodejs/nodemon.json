@@ -1,0 +1,6 @@
+{
+    "env": {
+        "password": "mongo-password",
+        "JWTKEY": "thisisasecretforjwttoken"
+    }
+}
