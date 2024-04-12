@@ -122,16 +122,16 @@ exports.promoMsg = (mobileNumber, message) => {
   reqs.end();
 };
 
-// const sendWhatAppMsg = () => {
-//     const accountSid = 'AC69a3c0872f9192ad3b2488276010f6d7';
-//     const authToken = '7706d8b120a8ddde352c1574b772024e';
+// const sendWhatAppMsg = (from,to) => {
+//     const accountSid = process.env.AccountSid;';
+//     const authToken = process.env.AuthToken;';
 //     const client = new twilio(accountSid, authToken);
 
 //     client.messages
 //         .create({
-//             from: 'whatsapp:+14155238886',
+//             from: 'whatsapp:+from',
 //             body: 'Hello there!',
-//             to: 'whatsapp:+918559865832'
+//             to: 'whatsapp:+to'
 //         })
 //         .then(message => {
 //             console.log("Message");

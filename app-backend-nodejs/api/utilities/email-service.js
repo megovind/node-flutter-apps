@@ -24,12 +24,12 @@ main = async body => {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: "smtp.valuebound.com",
+    host: process.env.HOST,
     port: 465, //587,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: "govind@valuebound.com", // generated ethereal user
-      pass: "meena678^&*meena" // generated ethereal password
+      user: process.env.GENERATED_USER, // generated ethereal user
+      pass: process.env.pass // generated ethereal password
     }
   });
 
@@ -37,7 +37,7 @@ main = async body => {
   let info = await transporter
     .sendMail({
       from: `"${body.name}" ${body.email}`, // sender address
-      to: "govind@root.in", // list of receivers
+      to: body.receiver, // list of receivers
       subject: `${body.msg_subject}`, // Subject line
       text: `${body.message}`, // plain text body
       html: "<b>Hello world?</b>" // html body

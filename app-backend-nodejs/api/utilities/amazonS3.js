@@ -80,9 +80,9 @@ exports.uploadToS3 = (req, res, next) => {
 exports.getFilesFromS3 = async () => {
   AWS.config.setPromisesDependency();
   AWS.config.update({
-    accessKeyId: "AKIA2MH53LXGZOXDUYXH",
-    secretAccessKey: "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",
-    region: "Asia Pacific (Mumbai)"
+    accessKeyId: process.env.AWS_ACCESS_KEY,
+    secretAccessKey: process.env.AWS_SECRET_KEY,
+    region: process.env.AWS_REGION
   });
   const s3 = new AWS.S3();
   const response = await s3
